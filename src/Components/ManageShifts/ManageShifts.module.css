@@ -1,0 +1,11 @@
+.shifts {
+  color: rgba(54, 64, 102, 0.8);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.shifts span {
+  position: relative;
+  top: -3px;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.sideMenu {
+  color: #928ea0;
+}
+
+.sideMenu .menuHolder {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-left: 30px !important;
+}
+
+.menuItem {
+  text-align: left;
+}
+
+.menuItem:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.icon {
+  position: relative;
+  top: -3px;
+}

@@ -1,0 +1,21 @@
+.notif {
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.notif:hover {
+  cursor: pointer;
+}
+
+.offc {
+  cursor: pointer;
+  position: relative;
+  top: -8px;
+  display: none;
+}
+
+@media screen and (max-width: 1220px) {
+  .offc {
+    display: block;
+  }
+}

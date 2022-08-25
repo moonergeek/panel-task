@@ -1,0 +1,30 @@
+.tag {
+  border: 1px solid rgba(231, 232, 242, 1);
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+.top {
+  color: #8a92a6;
+}
+
+.date {
+  position: relative;
+  top: -3px;
+}
+
+.day {
+  color: #0d3c6c;
+  padding: 5px;
+}
+
+.done {
+  border-radius: 12px;
+  border: 1px solid rgba(13, 60, 108, 1);
+}
+
+.curs{
+  cursor: pointer;
+}
