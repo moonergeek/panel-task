@@ -5,7 +5,6 @@
   border: 1px solid rgba(231, 232, 242, 1);
   padding: 15px;
   justify-content: space-between;
-  margin-left: 12px;
   background: #f8f8fc;
 }
 
@@ -30,7 +29,7 @@
 
 .userz {
   display: flex;
-  justify-content: around;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 1000px) {

@@ -3,7 +3,6 @@
   padding: 15px;
   border-radius: 8px;
   font-size: 0.8rem;
-  margin-left: 15px;
 }
 
 .top {
@@ -35,8 +34,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .tag{
+    margin: 0 auto;
+  }
   .tagz {
     flex-direction: column;
-    align-items: space-evenly !important;
+    align-items: stretch !important;
   }
 }
