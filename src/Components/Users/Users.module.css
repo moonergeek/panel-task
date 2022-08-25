@@ -27,3 +27,20 @@
 .station {
   opacity: 0.64;
 }
+
+.userz {
+  display: flex;
+  justify-content: around;
+}
+
+@media screen and (max-width: 1000px) {
+  .userz {
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+
+  .label {
+    width: 100%;
+    padding: 15px 45px;
+  }
+}

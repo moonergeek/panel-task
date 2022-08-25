@@ -8,7 +8,9 @@ import styles from "./Content.module.css";
 const Content = () => {
   return (
     <main className={`${styles.content} w-100`}>
-      <div className="d-flex justify-content-between px-5 mt-4">
+      <div
+        className={`${styles.contentHead} px-5 mt-4`}
+      >
         <ContentMenu />
         <Notification />
       </div>

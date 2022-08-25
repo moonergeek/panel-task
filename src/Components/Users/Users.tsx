@@ -31,7 +31,7 @@ const Users = () => {
     },
   ]);
   return (
-    <div className="d-flex justify-content-around">
+    <div className={styles.userz}>
       {label.map((item, index) => (
         <div key={index} className="d-block">
           <div className={styles.label}>

@@ -2,3 +2,14 @@
   width: 80%;
   height: 100%;
 }
+
+.contentHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1220px) {
+  .contentHead {
+    
+  }
+}

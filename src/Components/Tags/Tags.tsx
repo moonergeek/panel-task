@@ -30,7 +30,7 @@ const Tags = () => {
 
   return (
     <div>
-      <div className="d-flex justify-content-around">{tagRender}</div>
+      <div className={styles.tagz}>{tagRender}</div>
       <Users />
     </div>
   );
