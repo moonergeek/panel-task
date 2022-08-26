@@ -16,3 +16,13 @@
     ),
     #ffffff;
 }
+
+@media screen and (max-width: 1000px) {
+  .menu {
+    color: #ffffff;
+  }
+
+  .menuItem {
+    border: 0 none !important;
+  }
+}

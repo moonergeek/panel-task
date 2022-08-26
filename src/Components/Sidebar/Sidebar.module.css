@@ -1,7 +1,7 @@
 .sidebar {
   display: flex;
   width: 20%;
-  height: 100vh;
+  height: 101vh;
   background: radial-gradient(
       151.88% 64.7% at 0% 35.3%,
       rgba(83, 83, 83, 0.64) 0.55%,

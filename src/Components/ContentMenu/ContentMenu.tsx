@@ -11,7 +11,7 @@ const ContentMenu = () => {
   ]);
   return (
     <nav>
-      <ul className={`${styles.menu} d-flex gap-4 py-1`}>
+      <ul className={`${styles.menu} d-flex gap-4 py-1 navbar navbar-expand-lg`}>
         {state.map((item, index) => (
           <li key={index} className={`${styles.menuItem}`}>
             {item}
